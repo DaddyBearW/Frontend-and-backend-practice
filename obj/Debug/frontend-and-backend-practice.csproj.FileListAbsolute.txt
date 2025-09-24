@@ -1,0 +1,7 @@
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\bin\TypeScriptHTMLApp1.dll.config
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\bin\TypeScriptHTMLApp1.dll
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\bin\TypeScriptHTMLApp1.pdb
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\obj\Debug\frontend-and-backend-practice.csproj.AssemblyReference.cache
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\obj\Debug\frontend-and-backend-practice.csproj.CoreCompileInputs.cache
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\obj\Debug\TypeScriptHTMLApp1.dll
+C:\Users\Mosen\Documents\GitHub\frontend-and-backend-practice\obj\Debug\TypeScriptHTMLApp1.pdb

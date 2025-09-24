@@ -80,7 +80,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="contacts.html" />
+    <Content Include="goods.html" />
     <Content Include="index.html" />
+    <Content Include="news.html" />
+    <Content Include="practices.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +94,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Img\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <PropertyGroup>
