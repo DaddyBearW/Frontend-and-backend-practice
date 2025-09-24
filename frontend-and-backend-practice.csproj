@@ -85,6 +85,7 @@
     <Content Include="index.html" />
     <Content Include="news.html" />
     <Content Include="practices.html" />
+    <Content Include="style\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
