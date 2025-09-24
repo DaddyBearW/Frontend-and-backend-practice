@@ -1,7 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mosen\\Documents\\GitHub\\frontend-and-backend-practice\\",
+  "WorkspaceRootPath": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|c:\\users\\mosen\\documents\\github\\frontend-and-backend-practice\\goods.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|solutionrelative:goods.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|c:\\users\\mosen\\documents\\github\\frontend-and-backend-practice\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|solutionrelative:news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|c:\\users\\mosen\\documents\\github\\frontend-and-backend-practice\\contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|solutionrelative:contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|c:\\users\\mosen\\documents\\github\\frontend-and-backend-practice\\practices.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|solutionrelative:practices.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|c:\\users\\mosen\\documents\\github\\frontend-and-backend-practice\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}|frontend-and-backend-practice.csproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -14,17 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "practices.html",
+              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\practices.html",
+              "RelativeDocumentMoniker": "practices.html",
+              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\practices.html",
+              "RelativeToolTip": "practices.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-24T11:07:02.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contacts.html",
+              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\contacts.html",
+              "RelativeDocumentMoniker": "contacts.html",
+              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\contacts.html",
+              "RelativeToolTip": "contacts.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-24T11:06:45.377Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "goods.html",
+              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\goods.html",
+              "RelativeDocumentMoniker": "goods.html",
+              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\goods.html",
+              "RelativeToolTip": "goods.html",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwCUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-24T11:06:25.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "news.html",
+              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\news.html",
+              "RelativeDocumentMoniker": "news.html",
+              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\news.html",
+              "RelativeToolTip": "news.html",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-24T11:06:03.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\frontend-and-backend-practice\\index.html",
+              "DocumentMoniker": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\index.html",
               "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\frontend-and-backend-practice\\index.html",
+              "ToolTip": "C:\\Users\\Mosen\\Documents\\GitHub\\Frontend-and-backend-practice\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-24T10:07:45.3Z",
               "EditorCaption": ""
