@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Практики</title>
+    <title>Товары</title>
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <h1 class="header__title">Практические работы</h1>
+            <h1 class="header__title">Магазин</h1>
         </header>
 
         <nav class="nav">
@@ -20,11 +20,11 @@
                 <li class="nav__item">
                     <a class="nav__link" href="news.html">Новости</a>
                 </li>
-                <li class="nav__item nav__item--active">
-                    <a class="nav__link nav__link--active" href="practices.html">Практики</a>
-                </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="goods.html">Товары</a>
+                    <a class="nav__link" href="practices.html">Практики</a>
+                </li>
+                <li class="nav__item nav__item--active">
+                    <a class="nav__link nav__link--active" href="goods.html">Товары</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="contacts.html">Контакты</a>
@@ -33,20 +33,23 @@
         </nav>
 
         <main class="main">
-            <section class="experience">
-                <h2 class="experience__title">Практические занятия</h2>
-                <div class="experience__grid">
-                    <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 1: Основы HTML</h3>
-                        <p class="experience-card__desc">Изучение базовой структуры HTML-документа, тегов и атрибутов.</p>
+            <section class="products">
+                <h2 class="products__title">Наши товары</h2>
+                <div class="products__grid">
+                    <article class="product-card">
+                        <img src="Img/goods1.png" alt="Онимару Куницуна" class="product-card__image">
+                        <h3 class="product-card__name">Онимару Куницуна</h3>
+                        <p class="product-card__price">5350 руб.</p>
                     </article>
-                    <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 2: Основы CSS</h3>
-                        <p class="experience-card__desc">Работа с каскадными таблицами стилей, селекторами и свойствами.</p>
+                    <article class="product-card">
+                        <img src="Img/goods2.png" alt="Operator Древнее плямя" class="product-card__image">
+                        <h3 class="product-card__name">Operator"Древнее плямя"</h3>
+                        <p class="product-card__price">2475 руб.</p>
                     </article>
-                    <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 3: Семантические теги и Grid</h3>
-                        <p class="experience-card__desc">Использование семантической разметки и CSS Grid для создания современных макетов.</p>
+                    <article class="product-card">
+                        <img src="Img/goods3.png" alt="Vandal Нептун" class="product-card__image">
+                        <h3 class="product-card__name">Vandal"Нептун"</h3>
+                        <p class="product-card__price">1775 руб.</p>
                     </article>
                 </div>
             </section>
