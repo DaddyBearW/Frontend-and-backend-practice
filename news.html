@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +7,97 @@
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <div class="page-container">
+    <div class="page">
         <header class="header">
-            <h1>Новости</h1>
+            <h1 class="header__title">Новости</h1>
         </header>
 
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
-                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
-                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
-                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="index.html">Главная</a>
+                </li>
+                <li class="nav__item nav__item--active">
+                    <a class="nav__link nav__link--active" href="news.html">Новости</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="practices.html">Практики</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="goods.html">Товары</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="contacts.html">Контакты</a>
+                </li>
             </ul>
         </nav>
 
-        <main class="content">
-            <h2 class="section-title">Последние новости</h2>
-            <div class="news-container">
-                <article class="news-card">
-                    <h3 class="news-title">Запуск нового проекта</h3>
-                    <p class="news-meta">01.01.2025 12:00 | Р.У. Астафьев</p>
-                    <p class="news-text">Сегодня мы запустили новый образовательный проект по веб-разработке. Проект включает в себя современные технологии и лучшие практики.</p>
-                </article>
-                <article class="news-card">
-                    <h3 class="news-title">Обновление курса</h3>
-                    <p class="news-meta">15.12.2024 14:30 | Р.У. Астафьев</p>
-                    <p class="news-text">Мы обновили материалы курса по фронтенд разработке. Добавлены новые разделы по React и современному CSS.</p>
-                </article>
-                <article class="news-card">
-                    <h3 class="news-title">Мастер-класс по JavaScript</h3>
-                    <p class="news-meta">10.11.2024 10:00 | Р.У. Астафьев</p>
-                    <p class="news-text">Приглашаем всех желающих на бесплатный мастер-класс по современному JavaScript. Регистрация открыта на сайте.</p>
-                </article>
-            </div>
+        <main class="main">
+            <section class="news">
+                <h2 class="news__title">Последние новости</h2>
+
+                <div class="news__grid">
+                    <article class="news-card">
+                        <h3 class="news-card__title">Вышло обновление 8.11</h3>
+                        <p class="news-card__meta">01.01.2025 12:00 | М.А. Мосенц</p>
+                        <p class="news-card__text">Добавлен новый агент, карта и скин Онимару Куницуна.</p>
+                    </article>
+
+                    <article class="news-card">
+                        <h3 class="news-card__title">Скидки на скины</h3>
+                        <p class="news-card__meta">15.12.2024 14:30 | М.А. Мосенц</p>
+                        <p class="news-card__text">Скидки до 50% на все скины из коллекции "Древнее плямя".</p>
+                    </article>
+
+                    <article class="news-card">
+                        <h3 class="news-card__title">Новый сезон рангов</h3>
+                        <p class="news-card__meta">10.11.2024 10:00 | М.А. Мосенц</p>
+                        <p class="news-card__text">Начался новый сезон рангов. Получите уникальные награды за достижение высоких рангов.</p>
+                    </article>
+                </div>
+            </section>
         </main>
 
         <footer class="footer">
-            <p>© 2025 Aka DaddyBear</p>
+            <p class="footer__text">© 2025 Aka DaddyBear</p>
         </footer>
+
+        <div class="theme-switcher">
+            <button class="theme-switcher__button">🌙</button>
+        </div>
     </div>
+
+    <script>
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('selectedTheme', newTheme);
+            updateThemeButton(newTheme);
+        }
+
+        function updateThemeButton(theme) {
+            const button = document.querySelector('.theme-switcher__button');
+            if (button) {
+                button.textContent = theme === 'light' ? '🌙' : '☀️';
+            }
+        }
+
+        function applySavedTheme() {
+            const savedTheme = localStorage.getItem('selectedTheme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeButton(savedTheme);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            applySavedTheme();
+
+            const themeButton = document.querySelector('.theme-switcher__button');
+            if (themeButton) {
+                themeButton.addEventListener('click', toggleTheme);
+            }
+        });
+    </script>
 </body>
 </html>

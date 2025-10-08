@@ -82,7 +82,9 @@
     <Content Include="app.css" />
     <Content Include="contacts.html" />
     <Content Include="goods.html" />
+    <Content Include="goods_v1.html" />
     <Content Include="index.html" />
+    <Content Include="index_v1.html" />
     <Content Include="news.html" />
     <Content Include="practices.html" />
     <Content Include="style\styles.css" />

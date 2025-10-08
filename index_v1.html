@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Практики</title>
+    <title>Главная - Портфолио</title>
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <h1 class="header__title">Практические работы</h1>
+            <h1 class="header__title">Портфолио</h1>
         </header>
 
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link" href="index.html">Главная</a>
+                <li class="nav__item nav__item--active">
+                    <a class="nav__link nav__link--active" href="index.html">Главная</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="news.html">Новости</a>
                 </li>
-                <li class="nav__item nav__item--active">
-                    <a class="nav__link nav__link--active" href="practices.html">Практики</a>
+                <li class="nav__item">
+                    <a class="nav__link" href="practices.html">Практики</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="goods.html">Товары</a>
@@ -33,20 +33,41 @@
         </nav>
 
         <main class="main">
+            <section class="profile">
+                <h1 class="profile__title">Информация об авторе</h1>
+                <img class="profile__photo" src="Img/Me.png" alt="Фото автора">
+                <h2 class="profile__name">Мосенц Михаил Алексеевич</h2>
+                <p class="profile__group">ЭФБО-13-24</p>
+            </section>
+
+            <section class="about">
+                <h2 class="about__title">Обо мне</h2>
+                <p class="about__text">Обо мне: Я родился в городе Темрюк. На данный момент мне 19 лет. Учусь в РТУ МИРЭА</p>
+            </section>
+
+            <section class="skills">
+                <h2 class="skills__title">Мои навыки</h2>
+                <div class="skills__grid">
+                    <div class="skill skill--html">HTML/CSS</div>
+                    <div class="skill skill--design">Красаучик</div>
+                    <div class="skill skill--nickname">Aka DaddyBear</div>
+                </div>
+            </section>
+
             <section class="experience">
-                <h2 class="experience__title">Практические занятия</h2>
+                <h2 class="experience__title">Мой опыт работы</h2>
                 <div class="experience__grid">
                     <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 1: Основы HTML</h3>
-                        <p class="experience-card__desc">Изучение базовой структуры HTML-документа, тегов и атрибутов.</p>
+                        <h3 class="experience-card__title">Работал фантазёром</h3>
+                        <p class="experience-card__desc">Сочинял и праздновал</p>
                     </article>
                     <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 2: Основы CSS</h3>
-                        <p class="experience-card__desc">Работа с каскадными таблицами стилей, селекторами и свойствами.</p>
+                        <h3 class="experience-card__title">Работал бустером Valorant</h3>
+                        <p class="experience-card__desc">Апал ранги до алмаза.</p>
                     </article>
                     <article class="experience-card">
-                        <h3 class="experience-card__title">Практика 3: Семантические теги и Grid</h3>
-                        <p class="experience-card__desc">Использование семантической разметки и CSS Grid для создания современных макетов.</p>
+                        <h3 class="experience-card__title">Работал репетитором</h3>
+                        <p class="experience-card__desc">Учил "дураков" всякому</p>
                     </article>
                 </div>
             </section>
@@ -62,6 +83,7 @@
     </div>
 
     <script>
+        // Функция для переключения темы
         function toggleTheme() {
             const currentTheme = document.documentElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
@@ -71,6 +93,7 @@
             updateThemeButton(newTheme);
         }
 
+        // Функция для обновления кнопки темы
         function updateThemeButton(theme) {
             const button = document.querySelector('.theme-switcher__button');
             if (button) {
@@ -78,15 +101,18 @@
             }
         }
 
+        // Функция для применения сохраненной темы
         function applySavedTheme() {
             const savedTheme = localStorage.getItem('selectedTheme') || 'light';
             document.documentElement.setAttribute('data-theme', savedTheme);
             updateThemeButton(savedTheme);
         }
 
+        // При загрузке страницы применяем сохраненную тему
         document.addEventListener('DOMContentLoaded', function () {
             applySavedTheme();
 
+            // Добавляем обработчик для кнопки
             const themeButton = document.querySelector('.theme-switcher__button');
             if (themeButton) {
                 themeButton.addEventListener('click', toggleTheme);
